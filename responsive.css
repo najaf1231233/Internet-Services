@@ -1,0 +1,220 @@
+/* ----------------------> Responsive From 1650 to 1336  <---------------------- */
+
+@media (max-width: 1650px) {
+  .custom-container {
+    width: 1300px;
+  }
+  #main-hero-section .inner-container {
+    width: 70% !important;
+  }
+}
+
+/* ----------------------> Responsive From 1336 to 1025  <---------------------- */
+
+@media (max-width: 1336px) {
+  /* Root Variables */
+  :root {
+    --font-size-base: 15px;
+  }
+  .custom-container {
+    width: 1025px;
+  }
+  #main-hero-section .inner-container {
+    width: 90% !important;
+  }
+  .font-48 {
+    font-size: 42px;
+  }
+  .font-16 {
+    font-size: 15px;
+  }
+  #services-btm .main-heading {
+    font-size: 42px;
+    letter-spacing: -1.2px;
+  }
+  #our-packages .col .custom-btn-primary {
+    font-size: 16px;
+  }
+  #main-footer .form-subscribe {
+    width: fit-content !important;
+  }
+}
+
+/* ----------------------> Responsive of 1200 move raw to column  <---------------------- */
+
+@media (max-width: 1200px) {
+  #about-us .row,
+  #services-btm .row {
+    flex-direction: column !important;
+    gap: 32px;
+    width: 100%;
+  }
+  #about-us .col-lg-6,
+  #services-btm .col-lg-7,
+  #services-btm .col-lg-5 {
+    width: 100% !important;
+    gap: 20px !important;
+  }
+  #about-us .our-features {
+    width: 60% !important;
+  }
+}
+
+/* ----------------------> Responsive of 1030 to 725  <---------------------- */
+
+@media (max-width: 1030px) {
+  #main-header .announcement-bar {
+    display: none !important;
+  }
+  .custom-container {
+    max-width: 725px;
+  }
+  #main-hero-section .inner-container {
+    width: 100% !important;
+  }
+  .font-66 {
+    font-size: 54px;
+  }
+  #main-hero-section {
+    height: 55vh !important;
+  }
+  #about-us .row,
+  #services-btm .row {
+    max-width: 725px;
+  }
+  #about-us .our-features {
+    width: 80% !important;
+  }
+  .section-padding {
+    padding: 60px 0px !important;
+  }
+}
+
+@media (max-width: 740px) {
+  #main-hero-section {
+    height: 70vh !important;
+}
+  #main-header .header-inner img {
+    max-width: 75%;
+  }
+  .section-padding {
+    padding: 40px 0px !important;
+}
+
+  .font-66 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  #main-hero-section .inner-container .search-form {
+    width: 65%;
+  }
+  #about-us .our-features {
+    width: 100% !important;
+  }
+  #about-us .inner-container {
+    padding: 40px 0px !important;
+}
+  #our-services .col-top {
+    gap: 16px;
+    width: 100%;
+  }
+  .align-container-row {
+    flex-wrap: wrap !important;
+  }
+  #our-services .col-bottom .col {
+    min-width: 47%;
+  }
+  #counter .inner-container {
+    padding: 0px 0px !important;
+  }
+  .font-60 {
+    font-size: 44px;
+  }
+  #our-packages .col-bottom .col {
+    min-width: 100%;
+  }
+  #our-partners .col-bottom .col {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px !important;
+  }
+  #our-partners .col-bottom .col .item {
+    min-width: 45% !important;
+  }
+  #main-footer .col-top {
+    flex-direction: column;
+    gap: 24px;
+  }
+  #main-footer .box-1 {
+    width: 100% !important;
+  }
+  #main-footer .box-1 .footer-logo {
+    width: 70% !important;
+    margin-top: 0px;
+  }
+  #main-footer .box-1,
+  #main-footer .box {
+    gap: 16px !important;
+  }
+  .font-18 {
+    font-size: 16px !important;
+  }
+  #main-footer .box ul {
+    gap: 4px;
+  }
+  #main-footer .box .form-email {
+    max-width: 70%;
+  }
+  #main-footer .col-bottom {
+    align-items: center !important;
+    flex-direction: column !important;
+    gap: 16px;
+  }
+  #main-footer .col-bottom .copywrite  {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-inner .header-inner--call-button {
+    display: none !important;
+  }
+  #main-hero-section .inner-container .search-form {
+    width: 100%;
+  }
+  .font-48,
+  #services-btm .main-heading {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  #counter .inner-container {
+    flex-wrap: wrap !important;
+    display: flex;
+    flex-direction: row;
+  }
+  #counter .counter-box {
+    width: 50%;
+  }
+  #our-partners .col-bottom .col .item {
+    min-width: 80% !important;
+  }
+  #our-partners .col-bottom .col {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  #main-footer {
+    padding-top: 40px;
+  }
+  #about-us .our-features {
+    flex-direction: column;
+    gap: 6px !important;
+  }
+  #services-btm .inner-container {
+    padding: 40px 0px !important;
+  }
+  .font-66 {
+    font-size: 35px;
+    line-height: 39px;
+  }
+}
